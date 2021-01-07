@@ -44,7 +44,7 @@
 <p>每週四 19:00 - 21:00 在電腦輔助設計室為操作實習與助教協助回答問題時間</p>
 <h1>Work</h1>
 <h2>W1</h2>
-<h1>可攜系統</h1>
+<h3>可攜系統</h3>
 <p><span>先創可攜系統的目錄 </span><span>”CD2020” </span><span>，在 </span><span>CD2020 </span><span>的目錄下新增 </span><span>”data”</span><span>。</span></p>
 <p>Python 3.8.2<br/>到 <span><a href="https://www.python.org/downloads/release/python-382/">https://www.python.org/downloads/release/python-382/</a> </span>搜尋<span>”Windows x86-64 executable installer”</span>並下載<span>”Windows x86-64 executable installer”</span>，下載完後，執行<span>python-3.8.2-amd64.exe</span></p>
 <p><span>PortableGit：<br/><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a> 下載 64-bit Git for Windows Portable 安裝在 data 目錄下</span></p>
@@ -206,11 +206,196 @@
 <p><span><a href="https://cad.onshape.com/documents/acd8ecdb05674713f546131f/w/79aa733bfa0eb4b8766aeb4a/e/d6f0c99bdf006f8e10bffe4f">https://cad.onshape.com/documents/acd8ecdb05674713f546131f/w/79aa733bfa0eb4b8766aeb4a/e/d6f0c99bdf006f8e10bffe4f</a></span></p>
 <p><span>3-8</span></p>
 <p><span><a href="https://cad.onshape.com/documents/3ff2dfb2d81faab3f6b6ca25/w/2f0c1e1c078cf840c765dece/e/7ef7e5a9d2667c493df9bd6b">https://cad.onshape.com/documents/3ff2dfb2d81faab3f6b6ca25/w/2f0c1e1c078cf840c765dece/e/7ef7e5a9d2667c493df9bd6b</a></span></p>
-<p>操作範例</p>
-<p>第1.5範例影片</p>
-<p><a href="https://youtu.be/6wsVt99Qwuo" title="第1.5範例影片">https://youtu.be/6wsVt99Qwuo</a></p>
-<p><iframe allowfullscreen="allowfullscreen" height="480" src="//www.youtube.com/embed/6wsVt99Qwuo" width="640"></iframe></p>
+<p>3-9</p>
+<p><a href="https://cad.onshape.com/documents/a6ff1c1f057f10af8d05481d/w/f5054448c3ef24202beed97a/e/def8fac69a755f882cc797da">https://cad.onshape.com/documents/a6ff1c1f057f10af8d05481d/w/f5054448c3ef24202beed97a/e/def8fac69a755f882cc797da</a></p>
+<p></p>
+<p></p>
+<p></p>
 <h2>W7</h2>
 <p>tcc</p>
+<p>1.Proxy修改為:140.130.17.4  阜號為 3128</p>
+<p>下載<a href="http://a.kmol.info:88/">http://a.kmol.info:88/</a>中的<a href="http://a.kmol.info:88/fall2020_v2.7z">fall2020_v2.7z</a></p>
+<p>或</p>
+<p><span>下載</span><a href="https://drive.google.com/file/d/1BdAeRF8RmekFqeYp_4gVHV6Bmcej7buR/view">cad2020_w7_tcc_gnuplot.7z</a><span>解壓縮資料夾</span></p>
+<p></p>
+<p>2.修改start.bat</p>
+<div>
+<div class="syntaxhighlighter js" id="highlighter_936101">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="js plain">set path_julia=%Disk%:\julia-1.5.2\bin;</code></div>
+<div class="line number2 index1 alt1"><code class="js plain">set path_tcc=%Disk%:\tcc\;</code></div>
+<div class="line number3 index2 alt2"><code class="js plain">set path_gnuplot=%Disk%:\gnuplot\bin;</code></div>
+<div class="line number4 index3 alt1"><code class="js plain">path=%Disk%:;%path_python%;%path_portablegit%;%path_julia%;%path_tcc%;%path_gnuplot%;%path%;</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>修改完重開一次</p>
+<p></p>
+<p>3.重啟後輸入指令<span>tcc(黑窗)</span></p>
+<div>
+<div class="syntaxhighlighter js" id="highlighter_587599">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+<div class="line number11 index10 alt2">11</div>
+<div class="line number12 index11 alt1">12</div>
+<div class="line number13 index12 alt2">13</div>
+<div class="line number14 index13 alt1">14</div>
+<div class="line number15 index14 alt2">15</div>
+<div class="line number16 index15 alt1">16</div>
+<div class="line number17 index16 alt2">17</div>
+<div class="line number18 index17 alt1">18</div>
+<div class="line number19 index18 alt2">19</div>
+<div class="line number20 index19 alt1">20</div>
+<div class="line number21 index20 alt2">21</div>
+<div class="line number22 index21 alt1">22</div>
+<div class="line number23 index22 alt2">23</div>
+<div class="line number24 index23 alt1">24</div>
+<div class="line number25 index24 alt2">25</div>
+<div class="line number26 index25 alt1">26</div>
+<div class="line number27 index26 alt2">27</div>
+<div class="line number28 index27 alt1">28</div>
+<div class="line number29 index28 alt2">29</div>
+<div class="line number30 index29 alt1">30</div>
+<div class="line number31 index30 alt2">31</div>
+<div class="line number32 index31 alt1">32</div>
+<div class="line number33 index32 alt2">33</div>
+<div class="line number34 index33 alt1">34</div>
+<div class="line number35 index34 alt2">35</div>
+<div class="line number36 index35 alt1">36</div>
+<div class="line number37 index36 alt2">37</div>
+<div class="line number38 index37 alt1">38</div>
+<div class="line number39 index38 alt2">39</div>
+<div class="line number40 index39 alt1">40</div>
+<div class="line number41 index40 alt2">41</div>
+<div class="line number42 index41 alt1">42</div>
+<div class="line number43 index42 alt2">43</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="js plain">Tiny C Compiler 0.9.27 - Copyright (C) 2001-2006 Fabrice Bellard</code></div>
+<div class="line number2 index1 alt1"><code class="js plain">Usage: tcc [options...] [-o outfile] [-c] infile(s)...</code></div>
+<div class="line number3 index2 alt2"><code class="js spaces">       </code><code class="js plain">tcc [options...] -run infile [arguments...]</code></div>
+<div class="line number4 index3 alt1"><code class="js plain">General options:</code></div>
+<div class="line number5 index4 alt2"><code class="js spaces">  </code><code class="js plain">-c          compile only - generate an object file</code></div>
+<div class="line number6 index5 alt1"><code class="js spaces">  </code><code class="js plain">-o outfile  set output filename</code></div>
+<div class="line number7 index6 alt2"><code class="js spaces">  </code><code class="js plain">-run        run compiled source</code></div>
+<div class="line number8 index7 alt1"><code class="js spaces">  </code><code class="js plain">-fflag      set or reset (</code><code class="js keyword">with</code> <code class="js string">'no-'</code> <code class="js plain">prefix) </code><code class="js string">'flag'</code> <code class="js plain">(see tcc -hh)</code></div>
+<div class="line number9 index8 alt2"><code class="js spaces">  </code><code class="js plain">-Wwarning   set or reset (</code><code class="js keyword">with</code> <code class="js string">'no-'</code> <code class="js plain">prefix) </code><code class="js string">'warning'</code> <code class="js plain">(see tcc -hh)</code></div>
+<div class="line number10 index9 alt1"><code class="js spaces">  </code><code class="js plain">-w          disable all warnings</code></div>
+<div class="line number11 index10 alt2"><code class="js spaces">  </code><code class="js plain">-v -vv      show version, show search paths or loaded files</code></div>
+<div class="line number12 index11 alt1"><code class="js spaces">  </code><code class="js plain">-h -hh      show </code><code class="js keyword">this</code><code class="js plain">, show more help</code></div>
+<div class="line number13 index12 alt2"><code class="js spaces">  </code><code class="js plain">-bench      show compilation statistics</code></div>
+<div class="line number14 index13 alt1"><code class="js spaces">  </code><code class="js plain">-           use stdin pipe as infile</code></div>
+<div class="line number15 index14 alt2"><code class="js spaces">  </code><code class="js plain">@listfile   read arguments from listfile</code></div>
+<div class="line number16 index15 alt1"><code class="js plain">Preprocessor options:</code></div>
+<div class="line number17 index16 alt2"><code class="js spaces">  </code><code class="js plain">-Idir       add include path </code><code class="js string">'dir'</code></div>
+<div class="line number18 index17 alt1"><code class="js spaces">  </code><code class="js plain">-Dsym[=val] define </code><code class="js string">'sym'</code> <code class="js keyword">with</code> <code class="js plain">value </code><code class="js string">'val'</code></div>
+<div class="line number19 index18 alt2"><code class="js spaces">  </code><code class="js plain">-Usym       undefine </code><code class="js string">'sym'</code></div>
+<div class="line number20 index19 alt1"><code class="js spaces">  </code><code class="js plain">-E          preprocess only</code></div>
+<div class="line number21 index20 alt2"><code class="js plain">Linker options:</code></div>
+<div class="line number22 index21 alt1"><code class="js spaces">  </code><code class="js plain">-Ldir       add library path </code><code class="js string">'dir'</code></div>
+<div class="line number23 index22 alt2"><code class="js spaces">  </code><code class="js plain">-llib       link </code><code class="js keyword">with</code> <code class="js plain">dynamic or static library </code><code class="js string">'lib'</code></div>
+<div class="line number24 index23 alt1"><code class="js spaces">  </code><code class="js plain">-r          generate (relocatable) object file</code></div>
+<div class="line number25 index24 alt2"><code class="js spaces">  </code><code class="js plain">-shared     generate a shared library/dll</code></div>
+<div class="line number26 index25 alt1"><code class="js spaces">  </code><code class="js plain">-rdynamic   export all global symbols to dynamic linker</code></div>
+<div class="line number27 index26 alt2"><code class="js spaces">  </code><code class="js plain">-soname     set name </code><code class="js keyword">for</code> <code class="js plain">shared library to be used at runtime</code></div>
+<div class="line number28 index27 alt1"><code class="js spaces">  </code><code class="js plain">-Wl,-opt[=val]  set linker option (see tcc -hh)</code></div>
+<div class="line number29 index28 alt2"><code class="js plain">Debugger options:</code></div>
+<div class="line number30 index29 alt1"><code class="js spaces">  </code><code class="js plain">-g          generate runtime debug info</code></div>
+<div class="line number31 index30 alt2"><code class="js spaces">  </code><code class="js plain">-b          compile </code><code class="js keyword">with</code> <code class="js plain">built-</code><code class="js keyword">in</code> <code class="js plain">memory and bounds checker (implies -g)</code></div>
+<div class="line number32 index31 alt1"><code class="js spaces">  </code><code class="js plain">-bt N       show N callers </code><code class="js keyword">in</code> <code class="js plain">stack traces</code></div>
+<div class="line number33 index32 alt2"><code class="js plain">Misc. options:</code></div>
+<div class="line number34 index33 alt1"><code class="js spaces">  </code><code class="js plain">-x[c|a|n]   specify type of the next infile</code></div>
+<div class="line number35 index34 alt2"><code class="js spaces">  </code><code class="js plain">-nostdinc   </code><code class="js keyword">do</code> <code class="js plain">not use standard system include paths</code></div>
+<div class="line number36 index35 alt1"><code class="js spaces">  </code><code class="js plain">-nostdlib   </code><code class="js keyword">do</code> <code class="js plain">not link </code><code class="js keyword">with</code> <code class="js plain">standard crt and libraries</code></div>
+<div class="line number37 index36 alt2"><code class="js spaces">  </code><code class="js plain">-Bdir       set tcc's private include/library dir</code></div>
+<div class="line number38 index37 alt1"><code class="js spaces">  </code><code class="js plain">-MD         generate dependency file </code><code class="js keyword">for</code> <code class="js plain">make</code></div>
+<div class="line number39 index38 alt2"><code class="js spaces">  </code><code class="js plain">-MF file    specify dependency file name</code></div>
+<div class="line number40 index39 alt1"><code class="js spaces">  </code><code class="js plain">-m32/64     defer to i386/x86_64 cross compiler</code></div>
+<div class="line number41 index40 alt2"><code class="js plain">Tools:</code></div>
+<div class="line number42 index41 alt1"><code class="js spaces">  </code><code class="js plain">create library  : tcc -ar [rcsv] lib.a files</code></div>
+<div class="line number43 index42 alt2"><code class="js spaces">  </code><code class="js plain">create def file : tcc -impdef lib.dll [-v] [-o lib.def]</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><span>表示啟動命令搜尋路徑已經包含 y:\tcc 目錄</span></p>
+<p>4.修改 SciTE 編輯器的 cpp.properties, 讓 Tools -&gt; Go 可以呼叫 tcc.exe 類解譯編輯器中副檔名為 .c 的 ANSI C 程式.</p>
+<p>作法:將滑鼠指向 Options 往下點擊 Open cpp.properties 編輯設定檔案, 並且勾選 View -&gt; Line Number 使編輯器顯示行號, 針對  476 行之後的設定修改如下:</p>
+<div>
+<div class="syntaxhighlighter js" id="highlighter_248506">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+<div class="line number11 index10 alt2">11</div>
+<div class="line number12 index11 alt1">12</div>
+<div class="line number13 index12 alt2">13</div>
+<div class="line number14 index13 alt1">14</div>
+<div class="line number15 index14 alt2">15</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="js plain">ccopts=-pedantic -Os</code></div>
+<div class="line number2 index1 alt1"><code class="js preprocessor">#cc=g++ $(ccopts) -c $(FileNameExt) -o $(FileName).o</code></div>
+<div class="line number3 index2 alt2"><code class="js preprocessor">#ccc=gcc $(ccopts) -c $(FileNameExt) -o $(FileName).o</code></div>
+<div class="line number4 index3 alt1"><code class="js plain">cc=y:/tcc/tcc.exe -run</code></div>
+<div class="line number5 index4 alt2"><code class="js plain">ccc=y:/tcc/tcc.exe -run</code></div>
+<div class="line number6 index5 alt1"><code class="js spaces"> </code> </div>
+<div class="line number7 index6 alt2"><code class="js plain">make.command=make</code></div>
+<div class="line number8 index7 alt1"><code class="js plain">command.compile.*.c=$(ccc) -std=c99</code></div>
+<div class="line number9 index8 alt2"><code class="js plain">command.build.*.c=$(make.command)</code></div>
+<div class="line number10 index9 alt1"><code class="js plain">command.build.*.h=$(make.command)</code></div>
+<div class="line number11 index10 alt2"><code class="js plain">command.clean.*.c=$(make.command) clean</code></div>
+<div class="line number12 index11 alt1"><code class="js plain">command.clean.*.h=$(make.command) clean</code></div>
+<div class="line number13 index12 alt2"><code class="js plain">command.go.*.c=$(cc) $(FileNameExt)</code></div>
+<div class="line number14 index13 alt1"><code class="js preprocessor">#command.go.*.c=./$(FileName)</code></div>
+<div class="line number15 index14 alt2"><code class="js preprocessor"># To make the Go command both compile (if needed) and execute, use this setting:</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <h2>W8</h2>
 <p>pyslvs</p>
